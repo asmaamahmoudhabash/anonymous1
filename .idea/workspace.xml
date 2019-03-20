@@ -57,6 +57,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -150,11 +153,12 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="49" />
     <option name="width" value="1201" />
     <option name="height" value="608" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -262,7 +266,7 @@
     <option name="totallyTimeSpent" value="3788000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="683" extended-state="6" />
+    <frame x="0" y="30" width="1366" height="683" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
