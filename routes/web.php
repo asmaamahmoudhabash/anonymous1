@@ -20,3 +20,8 @@ Route::get('/Dashboard', function () {
     return view('dashboard.layouts.dashboard');
 });
 
+Route::group(['prefix' => 'AdminPanel'],function() {
+
+    Route::resource('Dashboard', 'DashboardController');
+
+});
