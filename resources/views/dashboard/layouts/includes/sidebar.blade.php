@@ -266,17 +266,17 @@
                     </li>
                     <li class="pcoded-hasmenu">
                         <a href="javascript:void(0)">
-                            <span class="pcoded-micon"><i class="ti-layout"></i></span>
-                            <span class="pcoded-mtext" data-i18n="nav.page_layout.main">Category</span>
+                            <span class="pcoded-micon"><i class="ion-gear-a"></i></span>
+                            <span class="pcoded-mtext" data-i18n="nav.page_layout.main">Settings</span>
                             {{--<span class="pcoded-badge label label-warning">NEW</span>--}}
                             <span class="pcoded-mcaret"></span>
                         </a>
                         <ul class="pcoded-submenu">
 
                             <li class=" pcoded-hasmenu">
-                                <a href="javascript:void(0)">
+                                <a href="{{url('AdminPanel/Settings')}}">
                                     <span class="pcoded-micon"><i class="icon-pie-chart"></i></span>
-                                    <span class="pcoded-mtext">Vertical</span>
+                                    <span class="pcoded-mtext">Settings</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                                 <ul class="pcoded-submenu">

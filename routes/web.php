@@ -23,5 +23,7 @@ Route::get('/Dashboard', function () {
 Route::group(['prefix' => 'AdminPanel'],function() {
 
     Route::resource('Dashboard', 'DashboardController');
+   
+
 
 });
