@@ -1,3 +1,8 @@
+
+<?php
+$login_user= \Illuminate\Support\Facades\Auth::user();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -284,7 +289,7 @@
                             <li class="user-profile header-notification">
                                 <a href="#!">
                                     <img src="{{asset('dashboard/assets/images/user.png')}}" alt="User-Profile-Image">
-                                    <span>John Doe</span>
+                                    <span>{{$login_user->name}}</span>
                                     <i class="ti-angle-down"></i>
                                 </a>
                                 <ul class="show-notification profile-notification">
@@ -309,7 +314,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#!">
+                                        <a href="{{url('logout')}}">
                                             <i class="ti-layout-sidebar-left"></i> Logout
                                         </a>
                                     </li>

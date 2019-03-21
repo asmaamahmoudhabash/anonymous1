@@ -1,4 +1,7 @@
 <!-- Sidebar chat start -->
+<?php
+$login_user= \Illuminate\Support\Facades\Auth::user();
+?>
 <div id="sidebar" class="users p-chat-user showChat">
     <div class="had-container">
         <div class="card card_main p-fixed users-main">
@@ -202,7 +205,7 @@
                     <div class="main-menu-header">
                         <img class="img-40" src="{{asset('dashboard/assets/images/user.png')}}" alt="User-Profile-Image">
                         <div class="user-details">
-                            <span>John Doe</span>
+                            <span>{{$login_user->name}}</span>
                             <span id="more-details">UX Designer<i class="ti-angle-down"></i></span>
                         </div>
                     </div>
@@ -212,7 +215,7 @@
                             <li class="more-details">
                                 <a href="user-profile.html"><i class="ti-user"></i>View Profile</a>
                                 <a href="#!"><i class="ti-settings"></i>Settings</a>
-                                <a href="#!"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                                <a href="{{url('logout')}}"><i class="ti-layout-sidebar-left"></i>Logout</a>
                             </li>
                         </ul>
                     </div>

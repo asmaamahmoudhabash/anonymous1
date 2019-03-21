@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +24,7 @@ Route::get('login', function () {
     if (Auth::check()) {
         return Redirect::to('/AdminPanel/Dashboard');
     } else {
-        return View::make('admin.users.login');
+        return View::make('dashboard.users.login');
     }
 
 });
@@ -34,8 +35,9 @@ Route::post('login', array('before' => 'csrf', function (Request $request) {
     {
         return Redirect::to('/AdminPanel/Dashboard');
     } else {
-        Session::set('loginerror', 'invalid data');
-        return View::make('admin.users.login');
+
+        flash()->warning('invaild date login');
+        return View::make('dashboard.users.login');
     }
 
 }));
@@ -45,11 +47,8 @@ Route::get('logout', function () {
 
     return Redirect::to('login');
 });
+Route::group(array('prefix' => 'AdminPanel', 'middleware' => 'auth'), function () {
 
-
-
-
-Route::group(['prefix' => 'AdminPanel'],function() {
 
     Route::resource('Dashboard', 'DashboardController');
     Route::resource('Settings', 'SettingController');
