@@ -72,6 +72,7 @@
 <script src="{{asset('dashboard/assets/js/demo-12.js')}}"></script>
 <script src="{{asset('dashboard/assets/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
 <script src="{{asset('dashboard/assets/js/jquery.mousewheel.min.js')}}"></script>
+<script src="{{asset('dashboard/assets/js/myjs.js')}}"></script>
 </body>
 
 </html>

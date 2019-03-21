@@ -279,137 +279,168 @@
                                     <span class="pcoded-mtext">Settings</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
-                                <ul class="pcoded-submenu">
-                                    <li class=" ">
-                                        <a href="menu-static.html" >
-                                            <span class="pcoded-micon"><i class="icon-chart"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.page_layout.vertical.static-layout">Static Layout</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                    <li class=" ">
-                                        <a href="menu-header-fixed.html">
-                                            <span class="pcoded-micon"><i class="icon-chart"></i></span>
-                                            <span class="pcoded-mtext"  data-i18n="nav.page_layout.vertical.header-fixed">Header Fixed</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                    <li class=" ">
-                                        <a href="menu-compact.html">
-                                            <span class="pcoded-micon"><i class="icon-chart"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.page_layout.vertical.compact">Compact</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                    <li class=" ">
-                                        <a href="menu-sidebar.html">
-                                            <span class="pcoded-micon"><i class="icon-chart"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.page_layout.vertical.sidebar-fixed">Sidebar Fixed</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
+                                {{--<ul class="pcoded-submenu">--}}
+                                    {{--<li class=" ">--}}
+                                        {{--<a href="menu-static.html" >--}}
+                                            {{--<span class="pcoded-micon"><i class="icon-chart"></i></span>--}}
+                                            {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.vertical.static-layout">Static Layout</span>--}}
+                                            {{--<span class="pcoded-mcaret"></span>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li class=" ">--}}
+                                        {{--<a href="menu-header-fixed.html">--}}
+                                            {{--<span class="pcoded-micon"><i class="icon-chart"></i></span>--}}
+                                            {{--<span class="pcoded-mtext"  data-i18n="nav.page_layout.vertical.header-fixed">Header Fixed</span>--}}
+                                            {{--<span class="pcoded-mcaret"></span>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li class=" ">--}}
+                                        {{--<a href="menu-compact.html">--}}
+                                            {{--<span class="pcoded-micon"><i class="icon-chart"></i></span>--}}
+                                            {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.vertical.compact">Compact</span>--}}
+                                            {{--<span class="pcoded-mcaret"></span>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li class=" ">--}}
+                                        {{--<a href="menu-sidebar.html">--}}
+                                            {{--<span class="pcoded-micon"><i class="icon-chart"></i></span>--}}
+                                            {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.vertical.sidebar-fixed">Sidebar Fixed</span>--}}
+                                            {{--<span class="pcoded-mcaret"></span>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
 
-                                </ul>
+                                {{--</ul>--}}
                             </li>
-                            <li class=" pcoded-hasmenu">
-                                <a href="javascript:void(0)" >
-                                    <span class="pcoded-micon"><i class="icon-pie-chart"></i></span>
-                                    <span class="pcoded-mtext" data-i18n="nav.page_layout.horizontal.main">Horizontal</span>
-                                    <span class="pcoded-mcaret"></span>
-                                </a>
-                                <ul class="pcoded-submenu">
-                                    <li class=" ">
-                                        <a href="menu-horizontal-static.html" target="_blank" >
-                                            <span class="pcoded-micon"><i class="icon-chart"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.page_layout.horizontal.static-layout">Static Layout</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                    <li class=" ">
-                                        <a href="menu-horizontal-fixed.html" target="_blank" >
-                                            <span class="pcoded-micon"><i class="icon-chart"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.page_layout.horizontal.fixed-layout">Fixed layout</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                    <li class=" ">
-                                        <a href="menu-horizontal-icon.html" target="_blank" >
-                                            <span class="pcoded-micon"><i class="icon-chart"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.page_layout.horizontal.static-with-icon">Static With Icon</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                    <li class=" ">
-                                        <a href="menu-horizontal-icon-fixed.html" target="_blank">
-                                            <span class="pcoded-micon"><i class="icon-chart"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.page_layout.horizontal.fixed-with-icon">Fixed With Icon</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class=" ">
-                                <a href="menu-bottom.html">
-                                    <span class="pcoded-micon"><i class="icon-pie-chart"></i></span>
-                                    <span class="pcoded-mtext" data-i18n="nav.page_layout.bottom-menu">Bottom Menu</span>
-                                    <span class="pcoded-mcaret"></span>
-                                </a>
-                            </li>
-                            <li class=" ">
-                                <a href="box-layout.html" target="_blank" >
-                                    <span class="pcoded-micon"><i class="icon-pie-chart"></i></span>
-                                    <span class="pcoded-mtext" data-i18n="nav.page_layout.box-layout">Box Layout</span>
-                                    <span class="pcoded-mcaret"></span>
-                                </a>
-                            </li>
-                            <li class=" ">
-                                <a href="menu-rtl.html" target="_blank" >
-                                    <span class="pcoded-micon"><i class="icon-pie-chart"></i></span>
-                                    <span class="pcoded-mtext" data-i18n="nav.page_layout.rtl">RTL</span>
-                                    <span class="pcoded-mcaret"></span>
-                                </a>
-                            </li>
+                            {{--<li class=" pcoded-hasmenu">--}}
+                                {{--<a href="javascript:void(0)" >--}}
+                                    {{--<span class="pcoded-micon"><i class="icon-pie-chart"></i></span>--}}
+                                    {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.horizontal.main">Horizontal</span>--}}
+                                    {{--<span class="pcoded-mcaret"></span>--}}
+                                {{--</a>--}}
+                                {{--<ul class="pcoded-submenu">--}}
+                                    {{--<li class=" ">--}}
+                                        {{--<a href="menu-horizontal-static.html" target="_blank" >--}}
+                                            {{--<span class="pcoded-micon"><i class="icon-chart"></i></span>--}}
+                                            {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.horizontal.static-layout">Static Layout</span>--}}
+                                            {{--<span class="pcoded-mcaret"></span>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li class=" ">--}}
+                                        {{--<a href="menu-horizontal-fixed.html" target="_blank" >--}}
+                                            {{--<span class="pcoded-micon"><i class="icon-chart"></i></span>--}}
+                                            {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.horizontal.fixed-layout">Fixed layout</span>--}}
+                                            {{--<span class="pcoded-mcaret"></span>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li class=" ">--}}
+                                        {{--<a href="menu-horizontal-icon.html" target="_blank" >--}}
+                                            {{--<span class="pcoded-micon"><i class="icon-chart"></i></span>--}}
+                                            {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.horizontal.static-with-icon">Static With Icon</span>--}}
+                                            {{--<span class="pcoded-mcaret"></span>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li class=" ">--}}
+                                        {{--<a href="menu-horizontal-icon-fixed.html" target="_blank">--}}
+                                            {{--<span class="pcoded-micon"><i class="icon-chart"></i></span>--}}
+                                            {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.horizontal.fixed-with-icon">Fixed With Icon</span>--}}
+                                            {{--<span class="pcoded-mcaret"></span>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
+                            {{--</li>--}}
+                            {{--<li class=" ">--}}
+                                {{--<a href="menu-bottom.html">--}}
+                                    {{--<span class="pcoded-micon"><i class="icon-pie-chart"></i></span>--}}
+                                    {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.bottom-menu">Bottom Menu</span>--}}
+                                    {{--<span class="pcoded-mcaret"></span>--}}
+                                {{--</a>--}}
+                            {{--</li>--}}
+                            {{--<li class=" ">--}}
+                                {{--<a href="box-layout.html" target="_blank" >--}}
+                                    {{--<span class="pcoded-micon"><i class="icon-pie-chart"></i></span>--}}
+                                    {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.box-layout">Box Layout</span>--}}
+                                    {{--<span class="pcoded-mcaret"></span>--}}
+                                {{--</a>--}}
+                            {{--</li>--}}
+                            {{--<li class=" ">--}}
+                                {{--<a href="menu-rtl.html" target="_blank" >--}}
+                                    {{--<span class="pcoded-micon"><i class="icon-pie-chart"></i></span>--}}
+                                    {{--<span class="pcoded-mtext" data-i18n="nav.page_layout.rtl">RTL</span>--}}
+                                    {{--<span class="pcoded-mcaret"></span>--}}
+                                {{--</a>--}}
+                            {{--</li>--}}
 
                         </ul>
                     </li>
                     <li class="pcoded-hasmenu">
                         <a href="javascript:void(0)" >
-                            <span class="pcoded-micon"><i class="ti-layout-cta-right"></i></span>
+                            <span class="pcoded-micon"><i class="icofont icofont-navigation-menu"></i></span>
+                            <span class="pcoded-mtext" data-i18n="nav.navigate.main">Categories</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                        <ul class="pcoded-submenu">
+                            <li class=" ">
+                                <a href="{{url('AdminPanel/Categories')}}" >
+                                    <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                    <span class="pcoded-mtext" data-i18n="nav.navigate.navbar">Show ALL</span>
+                                    <span class="pcoded-mcaret"></span>
+                                </a>
+                            </li>
+                            <li class=" ">
+                                <a href="{{url('AdminPanel/Categories/create')}}" >
+                                    <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                    <span class="pcoded-mtext" data-i18n="nav.navigate.navbar-inverse">Add Category</span>
+                                    <span class="pcoded-mcaret"></span>
+                                </a>
+                            </li>
+                            {{--<li class=" ">--}}
+                                {{--<a href="navbar-elements.html" >--}}
+                                    {{--<span class="pcoded-micon"><i class="ti-angle-right"></i></span>--}}
+                                    {{--<span class="pcoded-mtext" data-i18n="nav.navigate.navbar-with-elements">Navbar With Elements</span>--}}
+                                    {{--<span class="pcoded-mcaret"></span>--}}
+                                {{--</a>--}}
+                            {{--</li>--}}
+                        </ul>
+                    </li>
+
+                    <li class="pcoded-hasmenu">
+                        <a href="javascript:void(0)" >
+                            <span class="pcoded-micon"><i class="icofont icofont-news"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.navigate.main">News</span>
                             <span class="pcoded-mcaret"></span>
                         </a>
                         <ul class="pcoded-submenu">
                             <li class=" ">
-                                <a href="navbar-light.html" >
+                                <a href="{{url('AdminPanel/News')}}" >
                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                    <span class="pcoded-mtext" data-i18n="nav.navigate.navbar">Navbar</span>
+                                    <span class="pcoded-mtext" data-i18n="nav.navigate.navbar">Show ALL</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                             </li>
                             <li class=" ">
-                                <a href="navbar-dark.html" >
+                                <a href="{{url('AdminPanel/News/create')}}" >
                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                    <span class="pcoded-mtext" data-i18n="nav.navigate.navbar-inverse">Navbar Inverse</span>
+                                    <span class="pcoded-mtext" data-i18n="nav.navigate.navbar-inverse">Add News</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                             </li>
-                            <li class=" ">
-                                <a href="navbar-elements.html" >
-                                    <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                    <span class="pcoded-mtext" data-i18n="nav.navigate.navbar-with-elements">Navbar With Elements</span>
-                                    <span class="pcoded-mcaret"></span>
-                                </a>
-                            </li>
+                            {{--<li class=" ">--}}
+                            {{--<a href="navbar-elements.html" >--}}
+                            {{--<span class="pcoded-micon"><i class="ti-angle-right"></i></span>--}}
+                            {{--<span class="pcoded-mtext" data-i18n="nav.navigate.navbar-with-elements">Navbar With Elements</span>--}}
+                            {{--<span class="pcoded-mcaret"></span>--}}
+                            {{--</a>--}}
+                            {{--</li>--}}
                         </ul>
                     </li>
-                    <li class=" ">
-                        <a href="widget.html">
-                            <span class="pcoded-micon"><i class="ti-view-grid"></i></span>
-                            <span class="pcoded-mtext" data-i18n="nav.widget.main">Settings</span>
+                    {{--<li class=" ">--}}
+                        {{--<a href="widget.html">--}}
+                            {{--<span class="pcoded-micon"><i class="ti-view-grid"></i></span>--}}
+                            {{--<span class="pcoded-mtext" data-i18n="nav.widget.main">News</span>--}}
                             {{--<span class="pcoded-badge label label-danger">100+</span>--}}
-                            <span class="pcoded-mcaret"></span>
-                        </a>
-                    </li>
+                            {{--<span class="pcoded-mcaret"></span>--}}
+                        {{--</a>--}}
+                    {{--</li>--}}
                 </ul>
                 {{--<div class="pcoded-navigatio-lavel" data-i18n="nav.category.ui-element" menu-title-theme="theme5">UI Element</div>--}}
                 {{--<ul class="pcoded-item pcoded-left-item">--}}

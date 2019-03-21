@@ -18,7 +18,7 @@
                           <div class="page-header-breadcrumb">
                               <ul class="breadcrumb-title">
                                   <li class="breadcrumb-item">
-                                      <a href="index.html">
+                                      <a href="{{url('AdminPanel/Dashboard')}}">
                                           <i class="icofont icofont-home"></i>
                                       </a>
                                   </li>
@@ -2000,9 +2000,9 @@
                     {{--end content--}}
                 </div>
             </div>
-            <div id="styleSelector">
+            {{--<div id="styleSelector">--}}
 
-            </div>
+            {{--</div>--}}
         </div>
     </div>
     {{--content ends here--}}

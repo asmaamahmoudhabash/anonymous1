@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Photo extends Model
 {
-    protected $table = 'photos';
+    protected $table = 'photoes';
     public $timestamps = true;
     protected $fillable = array('url', 'photoable_type', 'photoable_id');
 
